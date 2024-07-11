@@ -303,6 +303,40 @@
 }
 
 
+/* Footer section */
+
+#footer{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 42px 200px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 600;
+    /* background-color: aquamarine; */
+}
+
+#footer .social-icons a{
+    text-decoration: none;
+}
+
+#footer .social-icons img{
+    width: 46px;
+}
+
+#footer .social-icons a:nth-child(2){
+    margin: 0 18px;
+}
+
+
+
+
+
 
 
 
