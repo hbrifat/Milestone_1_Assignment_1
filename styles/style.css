@@ -15,6 +15,21 @@
 
 /* .bg-primary{} */
 
+.section-title{
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 48px;
+    text-align: center;
+}
+
+.section-description{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 34px;;
+    text-align: center;
+    margin: 30px;
+}
+
 
 .btn-primary{
     padding: 28px 32px;
@@ -25,6 +40,7 @@
     font-weight: 600;
 }
 
+/* Header Section */
 
 .header{
     height: 870px;
@@ -65,6 +81,94 @@
 .header .btn-primary{
     margin-top: 40px;
 }
+
+
+/* Main Section */
+
+.content-container{
+    max-width: 1520px;
+    margin: 0 auto;
+}
+
+
+/* Why section */
+
+.why{
+    padding: 100px 130px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 80px;
+}
+
+.why-content{
+    margin: 0 12px;
+}
+
+.why-items{
+    margin-top: 70px;
+}
+
+
+.why-items .why-item{
+    margin: 30px 0;
+    padding: 60px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.why-items .why-item:nth-child(2){
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.why-items .why-item item-img{
+    width: 100%;
+}
+
+.why-items .why-item .item-info{
+    margin: 10px;
+}
+
+.why-item .item-info .info-title{
+    opacity: 0.7;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: left;
+}
+
+
+.why-item .item-info .info-description{
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+    margin: 20px 0 32px;
+}
+
+.why-item .item-info .btn-info{
+    padding: 12px 20px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    background: none;
+}
+
+
+
+
+
+
+
+
+
 
 
 
