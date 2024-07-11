@@ -28,6 +28,7 @@
     line-height: 34px;
     text-align: center;
     margin: 30px;
+    opacity: 0.7;
 }
 
 
@@ -244,6 +245,65 @@
     font-weight: 700;
     line-height: 25px;
 }
+
+
+/* Support Section */
+
+.support{
+    border-radius: 16px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url("../assets/handshake.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 85px 75px;
+    margin-bottom: 110px;
+}
+
+.support .support-content{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    /* height: 415px; */
+}
+
+
+.support .section-title{
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.support .section-description{
+    color: #fff;
+}
+
+.support form input[type=text], .support form input[type=submit]{
+    padding: 25px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+.support form ::placeholder{
+    opacity: 0.4;
+}
+
+.support form input[type=text]{
+    width: 720px;
+    margin-right: 20px;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.support form input[type=submit]{
+    width: 150px;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+
+
 
 
 
